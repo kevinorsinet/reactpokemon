@@ -1,0 +1,15 @@
+.Pokedex {
+	display: flex;
+	align-items: flex-start;
+}
+
+.PokeImage {
+	height: 300px;
+	width: auto;
+	margin: 50px;
+}
+
+
+.PokeName {
+	font-family: 'Press Start 2P', cursive;
+}
