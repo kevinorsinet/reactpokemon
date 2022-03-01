@@ -9,7 +9,7 @@ import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import "leaflet-defaulticon-compatibility";
 import L from "leaflet";
-import {useEffect, useState, useCallback } from 'react';
+import { useState, useCallback, useEffect} from 'react';
 const pokemon = require('pokemon');
 // console.log(pokemon.random());
 
@@ -40,7 +40,7 @@ export const Map = () => {
 			}
 		pokemonList.push(newPokemon);
 		forceUpdate();
-		// console.log(pokemonList);
+		console.log(pokemonList);
 	}
 
 	// fetch pokemon
